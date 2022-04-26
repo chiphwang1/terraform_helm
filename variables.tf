@@ -33,8 +33,11 @@ variable "release" {
 }
 
 
+# ingress vraiables
 
-
+variable "service_type" {
+  default = "ClusterIP"
+}
 
 
 
